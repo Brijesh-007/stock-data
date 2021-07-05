@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
-import os
+    import os
 from pathlib import Path
 # import django_heroku
 
@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-jnzy4ptkzv(#74t-qzpkjq8#h0g=!a(5iztrh7)jx307(-3p2-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['stockdata2.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['stockdata0.herokuapp.com','127.0.0.1']
 
 
 # Application definition
